@@ -5,17 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/styles/styles.css">
   <script src="https://kit.fontawesome.com/0a8239681c.js" crossorigin="anonymous"></script>
-  <title>The Search Surf</title>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Work+Sans:ital,wght@0,300;0,700;0,900;1,400&display=swap" rel="stylesheet">    
+  <title>The Search House</title>
 </head>
 <body>
-  <header class="header d-flex space-b items-center primary-color">
-    <img src="/assets/images/logo.png" alt="The Search Surf Schools Logo">
+  <header class="header d-flex flex-col bg-primary">
+    <div class="logo-div d-flex items-center">
+      <img class="logo-header" src="/assets/images/logo1.png" alt="The Search Surf Schools Logo">
+    </div>
+    
     <nav>
-      <ul class="d-flex">
-        <li class="nav-items"><a class="text-white" href="#"><i class="fas fa-search"></i>SEARCH</a></li>
-        <li class="nav-items"><a class="text-white" href="#"><i class="fas fa-snowboarding"></i>ABOUT</a></li>
+      <ul class="d-flex nav-list">
+        <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-search medium-font"></i><span>ABOUT</span></a></li>
+        <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-snowboarding medium-font"></i><span> ABOUT</span></a></li>
       </ul>
     </nav>
   </header>
+  <main class="main">
+    <section class="search-section">
+      <h1 class="search-h1 text-white secondary-text text-bolder">the search house... find your surf school around the world.</h1>
+      <fieldset class="field">
+        <form action="/" class="form d-flex flex-col">
+          <label class="form-label text-white primary-text text-bold" for="search">SEARCH BY KEYWORD:</label>
+          <input class="form-input" type="text" id="search">
+          <button type="submit" class="search-btn bg-primary text-white text-bold primary-text">SEARCH</button>
+        </form>
+      </fieldset>
+
+      <button class="work-btn primary-text" type="button">How it works</button>
+    </section>
+
+
+  </main>
 </body>
 </html>

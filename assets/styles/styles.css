@@ -51,8 +51,10 @@ a {
   text-decoration: none;
 }
 
-:root {
-  --primary-color: 
+body {
+  height: 100vh;
+  background-image: url(/assets/images/hero-image2.jpg);
+  background-size: cover;
 }
 
 
@@ -84,12 +86,34 @@ a {
 
 /* colors */
 
-.primary-color {
+.bg-primary {
     background-color: #d35649;
 }
 
 .text-white {
   color: white;
+}
+
+/* font */
+
+.primary-text {
+  font-family: 'Archivo', sans-serif;
+}
+
+.secondary-text {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-bolder {
+  font-weight: 900;
+}
+
+.medium-font {
+  font-size: 1.4rem;
 }
 
 /*=====  End of GLOBAL SETTINGS  ======*/
@@ -99,16 +123,108 @@ a {
 =============================================*/
 
 .header {
-  padding: 0 100px;
+  width: 100%;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-div {
+  align-self: center;
 }
 
 .nav-items {
-  margin-left: 10px;
+  margin: 10px 10px 0 0 ;
+}
+
+.nav-items span {
+  display: none;
+}
+
+.fa-search:hover {
+  color: #52adc0;
+}
+
+.fa-snowboarding:hover {
+  rotate: -25deg;
+  transition: 0.5s;
+  color: #52adc0;
 }
 
 /*=====  End of HEADER  ======*/
 
+/*=============================================
+=            SEARCH SECTION            =
+=============================================*/
+
+.search-h1 {
+  font-variant: small-caps;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 10px;
+}
 
 
+.search-section {
+  margin-top: 120px;
+}
 
+/* form */
+
+.field {
+  width: 85%;
+  margin: 20px auto;
+  padding-top: 1.1rem;
+  border-radius: 0.8rem;
+  background-color: rgba(228, 212, 212, 0.6);
+}
+
+.form-label {
+  margin-bottom: 0.2rem;
+  color: #505357;
+  font-size: 1rem;
+}
+
+.form-input {
+  border: none;
+  padding: 0.3rem 0;
+  border-radius: 0.2rem;
+}
+
+.form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search-btn {
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 0.2rem;
+  opacity: 1;
+}
+
+.work-btn {
+  margin-left: 15%;
+  color: #505357;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #d4d0d1;
+}
+
+.work-btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
+
+.search-btn:hover {
+  background-color:#d44535;
+  cursor: pointer;
+}
+
+/*=====  End of SEARCH SECTION  ======*/
 
