@@ -156,7 +156,7 @@ body {
 
 .fa-snowboarding:hover {
   rotate: -25deg;
-  transition: 0.5s;
+  transition: 0.6s;
   color: #52adc0;
 }
 
@@ -178,6 +178,7 @@ body {
   padding: 125px 0;
   background-image: url(/assets/images/hero-image2.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 /* form */
@@ -235,6 +236,7 @@ body {
 .search-btn:hover {
   background-color:#d44535;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 /*=====  End of SEARCH SECTION  ======*/
@@ -281,6 +283,10 @@ body {
   text-align: justify;
 }
 
+.info-div p {
+  max-width: 400px;
+}
+
 .info-btn-1,
 .info-btn-2 {
   padding: 0.4rem;
@@ -321,7 +327,102 @@ body {
   margin-bottom: 1rem;
 }
 
-
 /*=====  End of MORE INFO SECTION  ======*/
+
+
+/*=============================================
+=            FOOTER            =
+=============================================*/
+
+.footer-div {
+  background-color: #000;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 50px;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+/* subscribe */
+
+.sub-form {
+  margin: 0 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(228, 212, 212, 0.1);
+}
+
+.sub-label {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.sub-input {
+  border: 1px solid #444444;
+  background-color: transparent;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  color: #444444;
+}
+
+.sub-btn {
+  background-color: #444444;
+  border: none;
+  color: white;
+  padding: 0 1rem;
+}
+
+.sub-btn:hover {
+  cursor: pointer;
+}
+
+/* contact */
+
+
+.footer-contact{
+  border-bottom: 1px solid rgba(228, 212, 212, 0.1);
+}
+.footer-contact,
+.footer-about {
+  margin: 0 2rem;
+  padding: 2rem 0;
+}
+
+.contact-h2 {
+  margin-bottom: 1rem;
+}
+
+.footer-contact span,
+.footer-about span {
+  color: #d35649;
+}
+
+/* about */
+
+.footer-about {
+  text-align: center;
+}
+.about-text {
+  text-align: justify;
+  max-width: 400px;
+}
+
+/* social media icons */
+
+.footer-icons {
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #1f1f1f;
+}
+
+.icons-link {
+  padding: 0.6rem;
+  color: #505050;
+}
+
+
+/*=====  End of FOOTER  ======*/
 
 
