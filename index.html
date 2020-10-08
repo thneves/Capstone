@@ -14,7 +14,7 @@
       <img class="logo-header" src="/assets/images/logo1.png" alt="The Search Surf Schools Logo">
     </div>
     
-    <nav>
+    <nav class="navbar">
       <ul class="d-flex nav-list">
         <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-search medium-font"></i><span>ABOUT</span></a></li>
         <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-snowboarding medium-font"></i><span> ABOUT</span></a></li>
@@ -69,20 +69,30 @@
     <section class="more-info-section">
       <div class="info-div info-1 d-flex flex-col items-center">
         <img class="more-info-img" src="/assets/images/hero-image.jpg" alt="surfboards">
-        <h3 class="info-h3 secondary-text text-bold">Over 1,000 surf schools registered with us.</h3>
-        <p class="secondary-text">Finf a surf school by using our filtered engine.</p>
-        <button class="info-btn-1" type="button">Find a school</button>
+        <div class="more-info-wrapper-div">
+          <h3 class="info-h3 secondary-text text-bold">Over 1,000 surf schools registered with us.</h3>
+           <p class="secondary-text">Finf a surf school by using our filtered engine.</p>
+          <button class="info-btn-1" type="button">Find a school</button>
+       </div>
+        
       </div>
       <div class="info-div info-2 d-flex flex-col items-center">
         <img class="more-info-img" src="/assets/images/surf-kombi.jpg" alt="kombi de surf">
-        <h3 class="info-h3 secondary-text text-bold">No need to waste time in your trip to find a surf school.</h3>
-        <p class="secondary-text">Just press or click the search button and you're all set.</p>
-        <button class="info-btn-2" type="button">Find a school near you</button>
+        <div class="more-info-wrapper-div">
+          <h3 class="info-h3 secondary-text text-bold">No need to waste time in your trip to find a surf school.</h3>
+          <p class="secondary-text">Just press or click the search button and you're all set.</p>
+          <button class="info-btn-2" type="button">Find a school near you</button>
+        </div>
+        
       </div>
       <div class="info-div info-3 d-flex flex-col items-center">
-        <img class="more-info-img" src="/assets/images/mockup.png" alt="iphone app">
-        <h3 class=" info-h3 secondary-text text-bold">Anytime Anywhere Any way!</h3>
-        <p class="secondary-text">Very convenient platforms that cut across any device including our mobile web app and our mobile app coming soon to your app store.</p>
+        <img class="more-info-mockup" src="/assets/images/mockup.png" alt="iphone app">
+        <img class="more-info-mockup-2" src="/assets/images/mockup2.png" alt="iphone app">
+        <div class="more-indo-wrapper-div">
+          <h3 class=" info-h3 secondary-text text-bold">Anytime Anywhere Any way!</h3>
+          <p class="secondary-text">Very convenient platforms that cut across any device including our mobile web app and our mobile app coming soon to your app store.</p>
+        </div>
+        
       </div>
     </section>
 
@@ -92,45 +102,75 @@
   <footer>
     <div class="footer-div">
       <img class="footer-logo" src="/assets/images/logo.png" alt="the search logo">
-
-      <form action="/" class="sub-form d-flex flex-col items-center">
-        <label class="sub-label secondary-text medium-font text-bold" for="subscribe">SUBSCRIBE</label>
-        <div class="d-flex">
-          <input class="sub-input" type="text" placeholder="you@surfing.com">
-         <button class="sub-btn text-bolder small-font" type="submit">send</button>
-        </div>
-        
-      </form>
-
-      <div class="footer-contact text-white secondary-text">
-        <h2 class="contact-h2 text-bold medium-font">CONTACT</h2>
-          <p>have a question or submission?</p>
-          <span class="small-font text-bold">info@thesearchhouse.com</span>
-      </div>
-
-      <div class="footer-about text-white secondary-text d-flex flex-col items-center">
-        <h2 class="contact-h2 text-bold medium-font">ABOUT</h2>
-          <p class="small-font about-text">The Search House is an online platform by people passionate about surfing. Our porpuse is to connect people to surf schools anywhere in the world. <a href="#"><span class="small-font text-bold">Learn more...</span></a></p>
+      <ul class="footer-list d-flex">
+        <li><a class="text-white secondary-text small-font text-bold" href="#">HOME</a></li>
+        <li><a class="text-white secondary-text small-font text-bold" href="#">SEARCH</a></li>
+        <li><a class="text-white secondary-text small-font text-bold" href="#">ABOUT US</a></li>
+        <li><a class="text-white secondary-text small-font text-bold list-left" href="#">ADVERTISE</a></li>   
+        <li><a class="text-white secondary-text small-font text-bold list-right" href="#">FACEBOOK</a></li>
+        <li><a class="text-white secondary-text small-font text-bold" href="#">TWITTER</a></li>
+        <li><a class="text-white secondary-text small-font text-bold" href="#">BLOG</a></li>
+        <li><a class="text-white secondary-text small-font text-bold" href="#">GOOGLE +</a></li>
+      </ul>
+      
+      
+      <div class="footer-wrapper">
+        <form action="/" class="sub-form d-flex flex-col items-center">
+          <label class="sub-label secondary-text medium-font text-bold" for="subscribe">SUBSCRIBE</label>
+          <div class="d-flex">
+            <input class="sub-input" type="text" placeholder="you@surfing.com">
+           <button class="sub-btn text-bolder small-font" type="submit">send</button>
+          </div>
           
+        </form>
+  
+        <div class="footer-contact text-white secondary-text">
+          <h2 class="contact-h2 text-bold medium-font">CONTACT</h2>
+            <p>have a question or submission?</p>
+            <span class="small-font text-bold">info@thesearchhouse.com</span>
+        </div>
+  
+        <div class="footer-about text-white secondary-text d-flex flex-col items-center">
+          <h2 class="contact-h2 text-bold medium-font">ABOUT</h2>
+            <p class="small-font about-text secondary-text">The Search House is an online platform by people passionate about surfing. Our porpuse is to connect people to surf schools anywhere in the world. <a href="#"><span class="small-font text-bold">Learn more...</span></a></p>
+            
+        </div>
       </div>
-    </div>
+      </div>
+      
 
-    <div class="footer-icons d-flex medium-font">
-      <a class="icons-link" href="#">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a class="icons-link" href="#">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a class="icons-link" href="#">
-        <i class="fas fa-blog"></i>
-      </a>
-      <a class="icons-link" href="#">
-        <i class="fab fa-google-plus-g"></i>
-      </a>
-      <a class="icons-link" href="#">
-        <i class="fab fa-instagram"></i>
-      </a>
+    <div class="footer-bottom">
+      <ul class="footer-icons d-flex medium-font items-center">
+        <li>
+          <a class="icons-link" href="#">
+           <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icons-link" href="#">
+           <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icons-link" href="#">
+            <i class="fas fa-blog"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icons-link" href="#">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icons-link" href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      
+      </ul>
+
+      <p class="rights-text secondary-font text-light">
+        © The Bespins 2020, ALL RIGHTS RESERVED. POWERED BY<span class="small-font text-white"><i class="fab fa-watchman-monitoring medium-font"></i> DIGITAL SWELL</span></p>
 
     </div>
     
