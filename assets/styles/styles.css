@@ -228,3 +228,44 @@ body {
 
 /*=====  End of SEARCH SECTION  ======*/
 
+
+/*=============================================
+=            TABLET VERSION 768PX            =
+=============================================*/
+
+@media (min-width: 768px) {
+  body {
+    background: none;
+  }
+
+  .search-section {
+    background: url(/assets/images/hero-image2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    margin: 0 0;
+  }
+
+  .search-h1 {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .field {
+    width: 50%;
+  }
+
+  .form-input {
+    display: inline;
+  }
+
+  .work-btn {
+    margin-left: 40%;
+  }
+  
+}
+
+
+/*=====  End of TABLET VERSION 768PX  ======*/
+
+
