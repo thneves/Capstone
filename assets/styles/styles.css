@@ -436,7 +436,6 @@ body {
 
 /*=====  End of FOOTER  ======*/
 
-
 /*=============================================
 =            TABLET MEDIA             =
 =============================================*/
@@ -506,8 +505,6 @@ body {
      align-items: flex-start;
      text-align: left;
     }
-
-   
 
   /* footer */
 
@@ -594,4 +591,22 @@ body {
 }
 
 /*=====  End of TABLET MEDIA   ======*/
+
+
+/*=============================================
+=            DESKTOP MEDIA 1024PX            =
+=============================================*/
+
+@media (min-width: 1024px) {
+  
+  /* header */
+  
+  .nav-items span {
+    display: block;
+    margin-left: 0.4rem;
+  }
+
+}
+
+/*=====  End of DESKTOP MEDIA 102024PX  ======*/
 
