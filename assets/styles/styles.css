@@ -318,7 +318,7 @@ main {
 .info-btn-1:hover,
 .info-btn-2:hover {
   cursor: pointer;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .info-1 {
@@ -470,6 +470,71 @@ main {
   color: #000;
 }
 /*=====  End of FOOTER  ======*/
+
+
+/*=============================================
+=            SEARCH RESULTS PAGE            =
+=============================================*/
+
+.search-engine-section {
+  background-color: #eeeeee;
+  margin-top: 3rem;
+}
+
+.search-engine-field {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+.form-legend {
+  margin: 1.4rem auto;
+  color: #919091;
+  font-size: 1.2rem;
+  align-self: center;
+}
+
+.search-wrapper {
+  width: 100%;
+  margin-bottom: 0.7rem;
+}
+
+.search-label {
+  color: #494c4e;
+}
+
+.buttons-div {
+  width: 40%;
+  margin: 2rem auto;
+}
+
+.search-page-btn,
+.clear-filter-btn {
+  background-color: #509bd7;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.2rem;
+  border: none;
+  margin: 0.3rem 0;
+}
+
+.clear-filter-btn {
+  background-color: #e5ab5a;
+}
+
+.search-page-btn:hover {
+  background-color: #2674b4;
+}
+
+.clear-filter-btn:hover {
+  background-color: #d39032;
+}
+
+.search-page-btn:hover,
+.clear-filter-btn:hover {
+  cursor: pointer;
+}
+
+/*=====  End of SEARCH RESULTS PAGE  ======*/
 
 /*=============================================
 =            TABLET MEDIA             =
