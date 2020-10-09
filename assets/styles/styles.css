@@ -304,6 +304,12 @@ body {
   color: #98a4a5;
 }
 
+.info-btn-1:hover,
+.info-btn-2:hover {
+  cursor: pointer;
+  font-weight: 900;
+}
+
 .info-1 {
   background-color: #e27e65;
 }
@@ -331,6 +337,7 @@ body {
 .more-info-mockup-2 {
   display: none;
 }
+
 
 /*=====  End of MORE INFO SECTION  ======*/
 
@@ -434,6 +441,25 @@ body {
   color: #505050;
 }
 
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-facebook-f:hover {
+  color: rgb(40, 75, 151);
+}
+
+.fa-google-plus-g:hover {
+  color: #dd4d42;
+}
+
+.fa-instagram:hover {
+  color: #ad3a85;
+}
+
+.fa-blog:hover {
+  color: #000;
+}
 /*=====  End of FOOTER  ======*/
 
 /*=============================================
@@ -554,6 +580,15 @@ body {
     border-bottom: none;
   }
 
+  .sub-input {
+    width: 130px;
+  }
+
+  .contact-text {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
   .sub-label,
   .contact-h2 {
     font-size: 1rem;
@@ -562,7 +597,8 @@ body {
  .about-text {
    font-size: 0.8rem;
    font-weight: 300;
-   text-align: left;
+   text-align: center;
+   width: 200px;
  }
 
  .footer-bottom {
@@ -592,7 +628,6 @@ body {
 
 /*=====  End of TABLET MEDIA   ======*/
 
-
 /*=============================================
 =            DESKTOP MEDIA 1024PX            =
 =============================================*/
@@ -600,10 +635,55 @@ body {
 @media (min-width: 1024px) {
   
   /* header */
-  
+
+  .header {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-div {
+    margin-top: -5px;
+  }
+
+  .nav-items {
+    margin: 0;
+  }
+
   .nav-items span {
     display: block;
-    margin-left: 0.4rem;
+    margin-left: 0.3rem;
+  }
+
+  .nav-items span:hover {
+    color: #52adc0;
+  }
+
+  .navbar {
+    position: initial;
+    margin-top: 0.5rem;
+    padding-right: 2rem;
+  }
+  /* steps section */
+
+  .steps-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 5rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* more info section */
+
+  .info-div {
+    justify-content: space-around;
+  }
+
+  /* footer */
+
+  .about-text {
+    width: 260px;
   }
 
 }

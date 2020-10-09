@@ -16,26 +16,31 @@
     
     <nav class="navbar">
       <ul class="d-flex nav-list">
-        <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-search medium-font"></i><span>SCHOOLS</span></a></li>
-        <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-snowboarding medium-font"></i><span> ABOUT</span></a></li>
+        <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-search medium-font"></i><span class="primary-text">SCHOOLS</span></a></li>
+        <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-snowboarding medium-font"></i><span class="primary-text"> ABOUT</span></a></li>
       </ul>
     </nav>
   </header>
   <main class="main">
+
+    <!-- SEARCH SCHOOL SECTION -->
+
     <section class="search-section">
       <h1 class="search-h1 text-white secondary-text text-bolder">the search house... find your surf school around the world.</h1>
       <fieldset class="field">
         <form action="/" class="form d-flex flex-col">
           <label class="form-label text-white primary-text text-bold" for="search">SEARCH BY KEYWORD:</label>
-          <input class="form-input" type="text" id="search">
-          <button type="submit" class="search-btn bg-primary text-white text-bold primary-text">SEARCH</button>
+          <div class="form-wrapper d-flex flex-col">
+            <input class="form-input" type="text" id="search">
+            <button type="submit" class="search-btn bg-primary text-white text-bold primary-text">SEARCH</button>
+          </div>       
         </form>
       </fieldset>
 
       <button class="work-btn primary-text" type="button">How it works</button>
     </section>
 
-    <!-- HOW IT WORKS SECTION -->
+    <!-- FOUR STEPS SECTION -->
 
     <h1 class="steps-h1  secondary-text text-bolder ">THE SEARCH HOUSE WORKS IN FOUR SIMPLE STEPS</h1>
 
@@ -71,7 +76,7 @@
         <img class="more-info-img" src="/assets/images/hero-image.jpg" alt="surfboards">
         <div class="more-info-wrapper-div d-flex flex-col items-center">
           <h3 class="info-h3 secondary-text text-bold">Over 1,000 surf schools registered with us.</h3>
-           <p class="secondary-text">Finf a surf school by using our filtered engine.</p>
+           <p class="secondary-text">Find a surf school by using our filtered engine.</p>
           <button class="info-btn-1" type="button">Find a school</button>
        </div>
         
@@ -126,7 +131,7 @@
   
         <div class="footer-contact text-white secondary-text">
           <h2 class="contact-h2 text-bold medium-font">CONTACT</h2>
-            <p>have a question or submission?</p>
+            <p class="contact-text">have a question or submission?</p>
             <span class="small-font text-bold">info@thesearchhouse.com</span>
         </div>
   
