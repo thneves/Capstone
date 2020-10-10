@@ -11,7 +11,7 @@
 - - Homepage has a search bar, instruction about how the page works, and extra info.
 - - The Search Engine has different filters for more accurate search.
 - - The School Details page has all informations about the choosen school and a map location.
-- The footer contains subscription button, contact of the page, and links to social media.
+- The footer contains subscription button, page contact, and links to social media.
 
 
 ### This Application is responsive to all screen sizes.
@@ -27,7 +27,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://thneves.github.io/TheNextWeb-Responsive/)
+[Live Demo Link](https://thneves.github.io/Capstone/)
 
 ## Get Started
 
