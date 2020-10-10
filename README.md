@@ -8,9 +8,9 @@
 - The project was created following a given design.
 - No framework was used in this project.
 - The web app has 3 pages: Homepage, Search Engine and School Details.
-- Homepage has a search bar, instruction about how the page works, and extra info.
-- The Search Engine has different filters for more accurate search.
-- The School Details page has all informations about the choosen school and a map location.
+- - Homepage has a search bar, instruction about how the page works, and extra info.
+- - The Search Engine has different filters for more accurate search.
+- - The School Details page has all informations about the choosen school and a map location.
 - The footer contains subscription button, contact of the page, and links to social media.
 
 
@@ -61,4 +61,4 @@ To gain access to the The Search House page on any computer, follow the steps de
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/julian3493/design-teardown/issues/).
+Feel free to check the [issues page](https://github.com/thneves/Capstone/issues).
