@@ -4,7 +4,19 @@
 
 ![screenshot](/assets/images/screenshot.png)
 
-The porpuse of this project is to copy the original page using responsive design, for mobile, tablet and desktop version.
+- The Search House is an web application search engine to find surf schools around the world.
+- The project was created following a given design.
+- No framework was used in this project.
+- The web app has 3 pages: Homepage, Search Engine and School Details.
+- Homepage has a search bar, instruction about how the page works, and extra info.
+- The Search Engine has different filters for more accurate search.
+- The School Details page has all informations about the choosen school and a map location.
+- The footer contains subscription button, contact of the page, and links to social media.
+
+
+### This Application is responsive to all screen sizes.
+
+![screenshot](/assets/images/responsive-screenshot.png)
 
 ## Built With
 
