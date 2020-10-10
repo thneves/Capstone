@@ -192,7 +192,6 @@ main {
   max-width: 400px;
 }
 
-
 .search-section {
   padding: 125px 0;
   background-image: url(/assets/images/hero-image2.jpg);
@@ -298,7 +297,6 @@ main {
 
 .info-div {
   padding: 3rem 1rem;
-  color: white;
   text-align: center;
 }
 
@@ -389,8 +387,7 @@ main {
 }
 
 .sub-label {
-  color: white;
-  margin-bottom: 1rem;
+ margin-bottom: 1rem;
 }
 
 .sub-input {
@@ -403,7 +400,6 @@ main {
 .sub-btn {
   background-color: #444444;
   border: none;
-  color: white;
   padding: 0 1rem;
 }
 
@@ -478,7 +474,6 @@ main {
   color: #000;
 }
 /*=====  End of FOOTER  ======*/
-
 
 /*=============================================
 =            SEARCH RESULTS PAGE            =
@@ -586,7 +581,6 @@ main {
 
 /*=====  End of SEARCH RESULTS PAGE  ======*/
 
-
 /*=============================================
 =            SCHOOL DETAIL PAGE            =
 =============================================*/
@@ -675,381 +669,4 @@ main {
 
 /* school detail section */
 
-
 /*=====  End of SCHOOL DETAIL PAGE  ======*/
-
-
-
-/*=============================================
-=            TABLET MEDIA             =
-=============================================*/
-
-@media (min-width: 768px) {
-
-  /* Header */
-
-  .header {
-    flex-direction: row;
-    justify-content: left;
-  }
-
-  .logo-div {
-    margin-left: 2rem;
-  }
-
-  .navbar {
-    position: absolute;
-    left: 50%;
-    top: 1%;
-  }
-
-  .nav-items {
-    padding: 0 1rem;
-  }
-
-  .nav-items i {
-    font-size: 1rem;
-  }
-
-  /* search schools section */
-
-  .form-wrapper {
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-
-   .form-input {
-    width: 80%;
-    border-radius: 0.2rem;
-  }
-
-  .search-btn {
-    background-color: #509bd7;
-    padding: 0.4rem 0.6rem;
-    border-radius: 0.2rem;
-  }
-
-  .search-btn:hover {
-    background-color: #2674b4;
-  }
-
-  .work-btn {
-    margin-left: 0;
-  }
-
-  /* steps section */
-
-  .steps-div {
-    max-width: 680px;
-  }
-
-  /* more info section */
-
-    .info-div {
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      padding: 2rem;
-    }
-
-    .more-info-img {
-      width: 200px;
-      height: 200px;
-    }
-
-    .more-info-mockup {
-      display: none;
-    }
-
-    .more-info-mockup-2 {
-      display: block;
-      width: 180px;
-      height: 200px;
-    }
-
-    .info-btn-1,
-    .info-btn-2 {
-      margin-left: 0;
-    }
-
-    .more-info-wrapper-div {
-     align-items: flex-start;
-     text-align: left;
-    }
-
-    /* school detail page */
-
-    .info-table {
-      display: flex;
-      flex-direction: column;
-      width: 90%;
-      max-width: 900px;
-    }
-
-    .info-table-list {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-      grid-gap: 0.5rem;
-    }
-
-    .table-list-item {
-      text-align: center;
-      font-weight: bold;
-      margin: 0;
-      padding: 0.8rem;
-    }
-
-    .apply-btn {
-      width: 100px;
-      align-self: flex-end;
-    }
-
-    .info-bottom-list {
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      color: rgb(43, 40, 40);
-    }
-
-    .info-bottom-list span {
-      font-size: 0.6rem;
-      display: flex;
-      align-items: center;
-    }
-    
-    .info-bottom-list i {
-      padding-right: 0.2rem;
-    }
-
-  /* footer */
-
-  .footer-div {
-    padding-top: 2rem;
-    position: relative; 
-  }
-
-  .footer-list {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem 0;
-    margin: 0 2rem 3rem 2rem;
-    border-top: 1px solid rgba(228, 212, 212, 0.3);
-    border-bottom: 1px solid rgba(228, 212, 212, 0.3);
-  }
-
-  .list-left {
-    margin-right: 3rem;
-  }
-
-  .list-right {
-    margin-left: 3rem;
-  }
-
-  .footer-logo {
-    position: absolute;
-    top: -1rem;
-    left: 45%;
-    border: 1px solid rgba(228, 212, 212, 0.3);
-    background-color: #000;
-  }
-
-  .footer-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .footer-contact,
-  .footer-about {
-    margin-top: 0;
-    padding-top: 0;
-  }
-
-  .sub-form,
-  .footer-contact {
-    border-bottom: none;
-  }
-
-  .sub-input {
-    width: 130px;
-  }
-
-  .contact-text {
-    font-size: 0.9rem;
-    font-weight: 300;
-  }
-
-  .sub-label,
-  .contact-h2 {
-    font-size: 1rem;
-  }
-
- .about-text {
-   font-size: 0.8rem;
-   font-weight: 300;
-   text-align: center;
-   width: 200px;
- }
-
- .footer-bottom {
-   display: flex;
-   background-color: #1f1f1f;
-   padding-top: 1rem;
- }
-
-.footer-icons {
-  font-size: 1rem;
-}
-
-.rights-text {
-    display: block;
-    font-size: 0.7rem;
-    width: 100%;
-    text-align: center;
-    margin: 0.6rem 0 0 3rem;
-    color: #505050;
-    padding-right: 0.5rem;
-  }
-
-  .rights-text span {
-    padding-left: 0.5rem;
-  }
-}
-
-/*=====  End of TABLET MEDIA   ======*/
-
-/*=============================================
-=            DESKTOP MEDIA 1024PX            =
-=============================================*/
-
-@media (min-width: 1024px) {
-  
-  /* header */
-
-  .header {
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .logo-div {
-    margin-top: -5px;
-  }
-
-  .nav-items {
-    margin: 0;
-  }
-
-  .nav-items span {
-    display: block;
-    margin-left: 0.3rem;
-  }
-
-  .nav-items span:hover {
-    color: #52adc0;
-  }
-
-  .navbar {
-    position: initial;
-    margin-top: 0.5rem;
-    padding-right: 2rem;
-  }
-
-  /* search schools section */
-
-  .field {
-    max-width: 600px;
-  }
-
-  .search-btn {
-    background-color: #d35649;
-  }
-
-  .search-btn:hover {
-    background-color: #d44535;
-  }
-
-  /* steps section */
-
-  .steps-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 5rem;
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  /* more info section */
-
-  .info-div {
-    justify-content: space-around;
-  }
-
-  /* footer */
-
-  .about-text {
-    width: 260px;
-  }
-
-  /* SEARCH PAGE */
-
-  .search-engine-field {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0 auto;
-  }
-
-  .search-wrapper {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 140px;
-  }
-
-  .search-label {
-    margin-bottom: 0.4rem;
-  }
-
-  .search-input {
-    width: 90%;
-  }
-
-  .search-select {
-    width: 80%;
-  }
-
-  .buttons-div {
-    flex-direction: row;
-    width: 160px;
-  }
-
-  .search-page-btn {
-    margin-right: 0.3rem;
-  }
-
-  /* search page results */
-
-  .results-list {
-   max-width: 1024px ;
-   flex-direction: row;
-   justify-content: space-around;
-   margin-top: 2rem;
-  }
-
-  .result-school {
-    width: 300px;
-    margin: 1rem 1rem;
-  }
-
-  /* schoo detail */
-
-  .info-bottom-list span {
-    font-size: 0.7rem;
-  }
- 
-
-}
-
-/*=====  End of DESKTOP MEDIA 102024PX  ======*/
-

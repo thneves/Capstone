@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/styles/styles.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="assets/styles/tablet.css">
+  <link rel="stylesheet" media="screen and (min-width: 1024px)" href="assets/styles/desktop.css">
   <script src="https://kit.fontawesome.com/0a8239681c.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Work+Sans:ital,wght@0,300;0,700;0,900;1,400&display=swap" rel="stylesheet">    
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Work+Sans:ital,wght@0,300;0,700;0,900;1,400&display=swap"
+    rel="stylesheet">
   <title>The Search House</title>
 </head>
+
 <body>
   <header class="header d-flex flex-col bg-primary">
     <div class="logo-div d-flex items-center">
-      <img class="logo-header" src="/assets/images/logo1.png" alt="The Search Surf Schools Logo">
+      <a href="/index.html"><img class="logo-header" src="/assets/images/logo1.png"
+          alt="The Search Surf Schools Logo"></a>
     </div>
-    
+
     <nav class="navbar">
       <ul class="d-flex nav-list">
-        <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-search medium-font"></i><span class="primary-text">SCHOOLS</span></a></li>
-        <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-snowboarding medium-font"></i><span class="primary-text"> ABOUT</span></a></li>
+        <li class="nav-items"><a class="text-white d-flex" href="/search.html"><i
+              class="fas fa-search medium-font"></i><span class="primary-text">SCHOOLS</span></a></li>
+        <li class="nav-items"><a class="text-white d-flex" href="#about"><i
+              class="fas fa-snowboarding medium-font"></i><span class="primary-text"> ABOUT</span></a></li>
       </ul>
     </nav>
   </header>
@@ -27,63 +36,70 @@
     <section class="search-engine-section">
       <form action="/search.html">
         <legend class="form-legend secondary-text text-bold">Filter by beach, city, level or board type:</legend>
-      <fieldset class="search-engine-field">
-        
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">BEACH NAME:</label>
-          <input class="search-input" type="text">
-        </div>
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">CITY:</label>
-          <input class="search-input" type="text">
-        </div>
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">LEVEL:</label>
-          <select class="search-select" name="stance" id="stance">
-            <option  selected value=""></option>
-            <option value="first time">First Time</option>
-            <option value="beginner">Beginner</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="advanced">Advanced</option>
-            <option value="big rider">Big Rider</option>
-          </select>
-        </div>
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">BOARD TYPE:</label>
-          <select class="search-select" name="stance" id="stance">
-            <option selected value="0"></option>
-            <option value="long">Longboard</option>
-            <option value="fun">Funboard</option>
-            <option value="fish">Fish</option>
-            <option value="short">Shortboard</option>
-            <option value="gun">Gun</option>
-          </select>
-        </div>
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">STANCE:</label>
-          <select class="search-select" name="stance" id="stance">
-            <option selected value=""></option>
-            <option value="regular">Regular</option>
-            <option value="goofy">Goofy</option>
-          </select>
-        </div>
-        <div class="buttons-div d-flex flex-col">
-          <button type="submit" class="search-page-btn text-white text-bold primary-text">Search</button>
-          <button type="button" class="clear-filter-btn text-white text-bold primary-text"><i class="fas fa-edit"></i> Clear filter</button>
-        </div>
-      </fieldset>
-    </form>  
-  </section>
-  <section class="search-results-section d-flex flex-col items-center">
-    <h1 class="results-h1 primary-text medium-font text-bold">Search results found 3 school(s).</h1>
+        <fieldset class="search-engine-field">
 
-    <div class="results-list d-flex flex-col">
-      <div class="result-school bg-primary"><a href="/school.html"><img src="/assets/images/back-logo.png" alt="the search logo"><span class="name-span primary-text text-white text-bolder medium-font">NAZARÉ BIG SURF</span></a></div>
-      <div class="result-school bg-primary"><a href="/school.html"><img src="/assets/images/back-logo.png" alt="the search logo"><span class="name-span primary-text text-white text-bolder medium-font">BELLS BEACH PRO</span></a></div>
-      <div class="result-school bg-primary"><a href="/school.html"><img src="/assets/images/back-logo.png" alt="the search logo"><span class="name-span primary-text text-white text-bolder medium-font">PIPELINE MASTER</span></a></div>
-    </div>
+          <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
+            <label class="search-label" for="">BEACH NAME:</label>
+            <input class="search-input" type="text">
+          </div>
+          <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
+            <label class="search-label" for="">CITY:</label>
+            <input class="search-input" type="text">
+          </div>
+          <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
+            <label class="search-label" for="">LEVEL:</label>
+            <select class="search-select" name="stance" id="stance">
+              <option selected value=""></option>
+              <option value="first time">First Time</option>
+              <option value="beginner">Beginner</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+              <option value="big rider">Big Rider</option>
+            </select>
+          </div>
+          <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
+            <label class="search-label" for="">BOARD TYPE:</label>
+            <select class="search-select" name="stance" id="stance">
+              <option selected value="0"></option>
+              <option value="long">Longboard</option>
+              <option value="fun">Funboard</option>
+              <option value="fish">Fish</option>
+              <option value="short">Shortboard</option>
+              <option value="gun">Gun</option>
+            </select>
+          </div>
+          <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
+            <label class="search-label" for="">STANCE:</label>
+            <select class="search-select" name="stance" id="stance">
+              <option selected value=""></option>
+              <option value="regular">Regular</option>
+              <option value="goofy">Goofy</option>
+            </select>
+          </div>
+          <div class="buttons-div d-flex flex-col">
+            <button type="submit" class="search-page-btn text-white text-bold primary-text">Search</button>
+            <button type="button" class="clear-filter-btn text-white text-bold primary-text"><i class="fas fa-edit"></i>
+              Clear filter</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <section class="search-results-section d-flex flex-col items-center">
+      <h1 class="results-h1 primary-text medium-font text-bold">Search results found 3 school(s).</h1>
 
-  </section>
+      <div class="results-list d-flex flex-col">
+        <div class="result-school bg-primary"><a href="/school.html"><img src="/assets/images/back-logo.png"
+              alt="the search logo"><span class="name-span primary-text text-white text-bolder medium-font">NAZARÉ BIG
+              SURF</span></a></div>
+        <div class="result-school bg-primary"><a href="/school.html"><img src="/assets/images/back-logo.png"
+              alt="the search logo"><span class="name-span primary-text text-white text-bolder medium-font">BELLS BEACH
+              PRO</span></a></div>
+        <div class="result-school bg-primary"><a href="/school.html"><img src="/assets/images/back-logo.png"
+              alt="the search logo"><span class="name-span primary-text text-white text-bolder medium-font">PIPELINE
+              MASTER</span></a></div>
+      </div>
+
+    </section>
 
   </main>
   <footer>
@@ -93,49 +109,51 @@
         <li><a class="text-white secondary-text small-font text-bold" href="#">HOME</a></li>
         <li><a class="text-white secondary-text small-font text-bold" href="#">SEARCH</a></li>
         <li><a class="text-white secondary-text small-font text-bold" href="#">ABOUT US</a></li>
-        <li><a class="text-white secondary-text small-font text-bold list-left" href="#">ADVERTISE</a></li>   
+        <li><a class="text-white secondary-text small-font text-bold list-left" href="#">ADVERTISE</a></li>
         <li><a class="text-white secondary-text small-font text-bold list-right" href="#">FACEBOOK</a></li>
         <li><a class="text-white secondary-text small-font text-bold" href="#">TWITTER</a></li>
         <li><a class="text-white secondary-text small-font text-bold" href="#">BLOG</a></li>
         <li><a class="text-white secondary-text small-font text-bold" href="#">GOOGLE +</a></li>
       </ul>
-      
-      
+
+
       <div class="footer-wrapper">
         <form action="/" class="sub-form d-flex flex-col items-center">
           <label class="sub-label secondary-text medium-font text-bold" for="subscribe">SUBSCRIBE</label>
           <div class="d-flex">
             <input class="sub-input" type="text" placeholder="you@surfing.com">
-           <button class="sub-btn text-bolder small-font" type="submit">send</button>
+            <button class="sub-btn text-bolder small-font text-white" type="submit">send</button>
           </div>
-          
+
         </form>
-  
+
         <div class="footer-contact text-white secondary-text">
           <h2 class="contact-h2 text-bold medium-font">CONTACT</h2>
-            <p class="contact-text">have a question or submission?</p>
-            <span class="small-font text-bold">info@thesearchhouse.com</span>
+          <p class="contact-text">have a question or submission?</p>
+          <span class="small-font text-bold">info@thesearchhouse.com</span>
         </div>
-  
+
         <div class="footer-about text-white secondary-text d-flex flex-col items-center">
-          <h2 class="contact-h2 text-bold medium-font">ABOUT</h2>
-            <p class="small-font about-text secondary-text">The Search House is an online platform by people passionate about surfing. Our porpuse is to connect people to surf schools anywhere in the world. <a href="#"><span class="small-font text-bold">Learn more...</span></a></p>
-            
+          <h2 id="about" class="contact-h2 text-bold medium-font">ABOUT</h2>
+          <p class="small-font about-text secondary-text">The Search House is an online platform by people passionate
+            about surfing. Our porpuse is to connect people to surf schools anywhere in the world. <a href="#"><span
+                class="small-font text-bold">Learn more...</span></a></p>
+
         </div>
       </div>
-      </div>
-      
+    </div>
+
 
     <div class="footer-bottom">
       <ul class="footer-icons d-flex medium-font items-center">
         <li>
           <a class="icons-link" href="#">
-           <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-facebook-f"></i>
           </a>
         </li>
         <li>
           <a class="icons-link" href="#">
-           <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
           </a>
         </li>
         <li>
@@ -153,15 +171,17 @@
             <i class="fab fa-instagram"></i>
           </a>
         </li>
-      
+
       </ul>
 
       <p class="rights-text secondary-font text-light">
-        © The Bespins 2020, ALL RIGHTS RESERVED. POWERED BY<span class="small-font text-white"><i class="fab fa-watchman-monitoring medium-font"></i> DIGITAL SWELL</span></p>
+        © The Bespins 2020, ALL RIGHTS RESERVED. POWERED BY<span class="small-font text-white"><i
+            class="fab fa-watchman-monitoring medium-font"></i> DIGITAL SWELL</span></p>
 
     </div>
-    
+
   </footer>
 
 </body>
+
 </html>
