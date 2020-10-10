@@ -35,21 +35,21 @@
 
     <section class="search-engine-section">
       <form action="/search.html">
-        <legend class="form-legend secondary-text text-bold">Filter by beach, city, level or board type:</legend>
+        <h2 class="form-legend secondary-text text-bold">Filter by beach, city, level or board type:</h2>
         <fieldset class="search-engine-field">
 
           <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-            <label class="search-label" for="">BEACH NAME:</label>
-            <input class="search-input" type="text">
+            <label class="search-label" for="beach">BEACH NAME:</label>
+            <input class="search-input" type="text" id="beach">
           </div>
           <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-            <label class="search-label" for="">CITY:</label>
-            <input class="search-input" type="text">
+            <label class="search-label" for="city">CITY:</label>
+            <input class="search-input" type="text" id="city">
           </div>
           <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-            <label class="search-label" for="">LEVEL:</label>
-            <select class="search-select" name="stance" id="stance">
-              <option selected value=""></option>
+            <label class="search-label" for="level">LEVEL:</label>
+            <select class="search-select" name="stance" id="level">
+              <option selected value="0">&nbsp;</option>
               <option value="first time">First Time</option>
               <option value="beginner">Beginner</option>
               <option value="intermediate">Intermediate</option>
@@ -58,9 +58,9 @@
             </select>
           </div>
           <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-            <label class="search-label" for="">BOARD TYPE:</label>
-            <select class="search-select" name="stance" id="stance">
-              <option selected value="0"></option>
+            <label class="search-label" for="board">BOARD TYPE:</label>
+            <select class="search-select" name="stance" id="board">
+              <option selected value="0">&nbsp;</option>
               <option value="long">Longboard</option>
               <option value="fun">Funboard</option>
               <option value="fish">Fish</option>
@@ -69,9 +69,9 @@
             </select>
           </div>
           <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-            <label class="search-label" for="">STANCE:</label>
+            <label class="search-label" for="stance">STANCE:</label>
             <select class="search-select" name="stance" id="stance">
-              <option selected value=""></option>
+              <option selected value="0">&nbsp;</option>
               <option value="regular">Regular</option>
               <option value="goofy">Goofy</option>
             </select>
@@ -121,7 +121,7 @@
         <form action="/" class="sub-form d-flex flex-col items-center">
           <label class="sub-label secondary-text medium-font text-bold" for="subscribe">SUBSCRIBE</label>
           <div class="d-flex">
-            <input class="sub-input" type="text" placeholder="you@surfing.com">
+            <input class="sub-input" type="text" placeholder="you@surfing.com" id="subscribe">
             <button class="sub-btn text-bolder small-font text-white" type="submit">send</button>
           </div>
 

@@ -3,32 +3,19 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 
 body {
@@ -37,24 +24,21 @@ body {
 }
 
 ol, ul, li {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 a {
@@ -95,7 +79,7 @@ main {
 /* colors */
 
 .bg-primary {
-    background-color: #d35649;
+  background-color: #d35649;
 }
 
 .text-white {
@@ -162,7 +146,7 @@ main {
 }
 
 .nav-items {
-  margin: 10px 10px 0 0 ;
+  margin: 10px 10px 0 0;
 }
 
 .nav-items span {
@@ -253,7 +237,7 @@ main {
 }
 
 .search-btn:hover {
-  background-color:#d44535;
+  background-color: #d44535;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -280,8 +264,7 @@ main {
   color: #2f2e31;
 }
 
-.steps-icons,
-.steps-h2 {
+.steps-icons, .steps-h2 {
   margin-bottom: 0.5rem;
 }
 
@@ -304,8 +287,7 @@ main {
   max-width: 400px;
 }
 
-.info-btn-1,
-.info-btn-2 {
+.info-btn-1, .info-btn-2 {
   padding: 0.4rem;
   margin: 1rem;
   border: none;
@@ -317,12 +299,11 @@ main {
   color: #e27e65;
 }
 
-.info-btn-2{
+.info-btn-2 {
   color: #98a4a5;
 }
 
-.info-btn-1:hover,
-.info-btn-2:hover {
+.info-btn-1:hover, .info-btn-2:hover {
   cursor: pointer;
   font-weight: 700;
 }
@@ -343,8 +324,7 @@ main {
   margin-bottom: 1rem;
 }
 
-.more-info-img,
-.more-info-mockup {
+.more-info-img, .more-info-mockup {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -387,7 +367,7 @@ main {
 }
 
 .sub-label {
- margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .sub-input {
@@ -413,11 +393,11 @@ main {
   display: none;
 }
 
-.footer-contact{
+.footer-contact {
   border-bottom: 1px solid rgba(228, 212, 212, 0.1);
 }
-.footer-contact,
-.footer-about {
+
+.footer-contact, .footer-about {
   margin: 0 2rem;
   padding: 2rem 0;
 }
@@ -426,8 +406,7 @@ main {
   margin-bottom: 1rem;
 }
 
-.footer-contact span,
-.footer-about span {
+.footer-contact span, .footer-about span {
   color: #d35649;
 }
 
@@ -436,6 +415,7 @@ main {
 .footer-about {
   text-align: center;
 }
+
 .about-text {
   text-align: justify;
   max-width: 400px;
@@ -473,6 +453,7 @@ main {
 .fa-blog:hover {
   color: #000;
 }
+
 /*=====  End of FOOTER  ======*/
 
 /*=============================================
@@ -507,8 +488,7 @@ main {
   color: #494c4e;
 }
 
-.search-input,
-.search-select {
+.search-input, .search-select {
   border: 2px solid #d5d5d5;
   border-radius: 0.2rem;
   padding: 0.2rem 0;
@@ -524,8 +504,7 @@ main {
   margin: 2rem auto;
 }
 
-.search-page-btn,
-.clear-filter-btn {
+.search-page-btn, .clear-filter-btn {
   background-color: #509bd7;
   padding: 0.4rem 0.6rem;
   border-radius: 0.2rem;
@@ -545,8 +524,7 @@ main {
   background-color: #d39032;
 }
 
-.search-page-btn:hover,
-.clear-filter-btn:hover {
+.search-page-btn:hover, .clear-filter-btn:hover {
   cursor: pointer;
 }
 
@@ -597,8 +575,9 @@ main {
 .info-table {
   margin-bottom: 1rem;
   padding: 1.4rem;
-  box-shadow: -2px -3px 21px -7px rgba(84,81,84,1);
+  box-shadow: -2px -3px 21px -7px rgba(84, 81, 84, 1);
 }
+
 .info-table-list {
   margin: 1rem 0;
 }
@@ -617,7 +596,7 @@ main {
 .apply-btn {
   background-color: #509bd7;
   padding: 0.3rem 0.4rem;
-  margin-bottom:0.3rem;
+  margin-bottom: 0.3rem;
   border-radius: 0.2rem;
   border: none;
 }
@@ -653,7 +632,7 @@ main {
 }
 
 .map-direction-h3 {
-  margin: 0.6rem 0 ;
+  margin: 0.6rem 0;
   font-size: 1.2rem;
   color: #d44535;
 }
