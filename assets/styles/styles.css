@@ -178,7 +178,7 @@ main {
 
 .search-section {
   padding: 125px 0;
-  background-image: url(assets/images/hero-image2.jpg);
+  background-image: url(../images/hero-image2.jpg);
   background-size: cover;
   background-position: center;
 }
