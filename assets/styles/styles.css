@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, i, ol, ul, li, fieldset, form, label, legend, footer, header, nav {
   margin: 0;
   padding: 0;
   border: 0;
@@ -14,7 +14,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+footer,
+header,
+nav,
+section {
   display: block;
 }
 
@@ -23,22 +26,10 @@ body {
   height: 100vh;
 }
 
-ol, ul, li {
+ol,
+ul,
+li {
   list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 a {
@@ -128,11 +119,11 @@ main {
   font-size: 1.8rem;
 }
 
-/*=====  End of GLOBAL SETTINGS  ======*/
+/* =====  End of GLOBAL SETTINGS  ======* /
 
-/*=============================================
+/* =============================================
 =            HEADER            =
-=============================================*/
+============================================= */
 
 .header {
   width: 100%;
@@ -163,11 +154,11 @@ main {
   color: #52adc0;
 }
 
-/*=====  End of HEADER  ======*/
+/* =====  End of HEADER  ====== */
 
-/*=============================================
+/* =============================================
 =            SEARCH SECTION            =
-=============================================*/
+============================================= */
 
 .search-h1 {
   font-variant: small-caps;
@@ -242,11 +233,11 @@ main {
   transition: 0.5s;
 }
 
-/*=====  End of SEARCH SECTION  ======*/
+/* =====  End of SEARCH SECTION  ====== */
 
-/*=============================================
+/* =============================================
 =            STEPS SECTION            =
-=============================================*/
+============================================= */
 
 .steps-h1 {
   margin: 20px 0;
@@ -272,11 +263,11 @@ main {
   text-align: justify;
 }
 
-/*=====  End of STEPS SECTION  ======*/
+/* =====  End of STEPS SECTION  ====== */
 
-/*=============================================
+/* =============================================
 =            MORE INFO SECTION            =
-=============================================*/
+============================================= */
 
 .info-div {
   padding: 3rem 1rem;
@@ -335,11 +326,11 @@ main {
   display: none;
 }
 
-/*=====  End of MORE INFO SECTION  ======*/
+/* =====  End of MORE INFO SECTION  ====== */
 
-/*=============================================
+/* =============================================
 =            FOOTER            =
-=============================================*/
+============================================= */
 
 .footer-div {
   background-color: #000;
@@ -371,14 +362,14 @@ main {
 }
 
 .sub-input {
-  border: 1px solid #444444;
+  border: 1px solid #444;
   background-color: transparent;
   padding: 0.5rem 0 0.5rem 0.5rem;
-  color: #444444;
+  color: #444;
 }
 
 .sub-btn {
-  background-color: #444444;
+  background-color: #444;
   border: none;
   padding: 0 1rem;
 }
@@ -454,14 +445,14 @@ main {
   color: #000;
 }
 
-/*=====  End of FOOTER  ======*/
+/* =====  End of FOOTER  ====== */
 
-/*=============================================
+/* =============================================
 =            SEARCH RESULTS PAGE            =
-=============================================*/
+============================================= */
 
 .search-engine-section {
-  background-color: #eeeeee;
+  background-color: #eee;
   margin-top: 3rem;
 }
 
@@ -557,11 +548,11 @@ main {
   left: 20%;
 }
 
-/*=====  End of SEARCH RESULTS PAGE  ======*/
+/* =====  End of SEARCH RESULTS PAGE  ====== */
 
-/*=============================================
+/* =============================================
 =            SCHOOL DETAIL PAGE            =
-=============================================*/
+============================================= */
 
 .school-info-section {
   width: 90%;
@@ -648,4 +639,4 @@ main {
 
 /* school detail section */
 
-/*=====  End of SCHOOL DETAIL PAGE  ======*/
+/* =====  End of SCHOOL DETAIL PAGE  ====== */

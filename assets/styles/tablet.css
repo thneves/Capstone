@@ -80,7 +80,8 @@
   height: 200px;
 }
 
-.info-btn-1, .info-btn-2 {
+.info-btn-1,
+.info-btn-2 {
   margin-left: 0;
 }
 
@@ -171,12 +172,14 @@
   justify-content: space-evenly;
 }
 
-.footer-contact, .footer-about {
+.footer-contact,
+.footer-about {
   margin-top: 0;
   padding-top: 0;
 }
 
-.sub-form, .footer-contact {
+.sub-form,
+.footer-contact {
   border-bottom: none;
 }
 
@@ -189,7 +192,8 @@
   font-weight: 300;
 }
 
-.sub-label, .contact-h2 {
+.sub-label,
+.contact-h2 {
   font-size: 1rem;
 }
 
