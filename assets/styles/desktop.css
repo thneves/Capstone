@@ -1,4 +1,4 @@
-  /* header */
+/* header */
 
 .header {
   justify-content: space-between;
@@ -11,6 +11,10 @@
 
 .nav-items {
   margin: 0;
+}
+
+.info-bottom-list span {
+  font-size: 0.7rem;
 }
 
 .nav-items span {
@@ -28,7 +32,7 @@
   padding-right: 2rem;
 }
 
-  /* search schools section */
+/* search schools section */
 
 .field {
   max-width: 600px;
@@ -42,7 +46,7 @@
   background-color: #d44535;
 }
 
-  /* steps section */
+/* steps section */
 
 .steps-section {
   display: grid;
@@ -53,19 +57,19 @@
   margin: 0 auto;
 }
 
-  /* more info section */
+/* more info section */
 
 .info-div {
   justify-content: space-around;
 }
 
-  /* footer */
+/* footer */
 
 .about-text {
   width: 260px;
 }
 
-  /* SEARCH PAGE */
+/* SEARCH PAGE */
 
 .search-engine-field {
   display: flex;
@@ -102,7 +106,7 @@
   margin-right: 0.3rem;
 }
 
-  /* search page results */
+/* search page results */
 
 .results-list {
   max-width: 1024px;
@@ -114,10 +118,4 @@
 .result-school {
   width: 300px;
   margin: 1rem 1rem;
-}
-
-  /* schoo detail */
-
-.info-bottom-list span {
-  font-size: 0.7rem;
 }
