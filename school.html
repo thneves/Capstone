@@ -16,76 +16,48 @@
     
     <nav class="navbar">
       <ul class="d-flex nav-list">
-        <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-search medium-font"></i><span class="primary-text">SCHOOLS</span></a></li>
+        <li class="nav-items"><a class="text-white d-flex" href="/search.html"><i class="fas fa-search medium-font"></i><span class="primary-text">SCHOOLS</span></a></li>
         <li class="nav-items"><a class="text-white d-flex" href="#"><i class="fas fa-snowboarding medium-font"></i><span class="primary-text"> ABOUT</span></a></li>
       </ul>
     </nav>
   </header>
-
   <main>
 
-    <section class="search-engine-section">
-      <form action="/search.html">
-        <legend class="form-legend secondary-text text-bold">Filter by beach, city, level or board type:</legend>
-      <fieldset class="search-engine-field">
-        
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">BEACH NAME:</label>
-          <input class="search-input" type="text">
-        </div>
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">CITY:</label>
-          <input class="search-input" type="text">
-        </div>
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">LEVEL:</label>
-          <select class="search-select" name="stance" id="stance">
-            <option  selected value=""></option>
-            <option value="first time">First Time</option>
-            <option value="beginner">Beginner</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="advanced">Advanced</option>
-            <option value="big rider">Big Rider</option>
-          </select>
-        </div>
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">BOARD TYPE:</label>
-          <select class="search-select" name="stance" id="stance">
-            <option selected value="0"></option>
-            <option value="long">Longboard</option>
-            <option value="fun">Funboard</option>
-            <option value="fish">Fish</option>
-            <option value="short">Shortboard</option>
-            <option value="gun">Gun</option>
-          </select>
-        </div>
-        <div class="search-wrapper d-flex space-b items-center primary-text text-bold small-font">
-          <label class="search-label" for="">STANCE:</label>
-          <select class="search-select" name="stance" id="stance">
-            <option selected value=""></option>
-            <option value="regular">Regular</option>
-            <option value="goofy">Goofy</option>
-          </select>
-        </div>
-        <div class="buttons-div d-flex flex-col">
-          <button type="submit" class="search-page-btn text-white text-bold primary-text">Search</button>
-          <button type="button" class="clear-filter-btn text-white text-bold primary-text"><i class="fas fa-edit"></i> Clear filter</button>
-        </div>
-      </fieldset>
-    </form>  
-  </section>
-  <section class="search-results-section d-flex flex-col items-center">
-    <h1 class="results-h1 primary-text medium-font text-bold">Search results found 3 school(s).</h1>
+    <section class="school-info-section d-flex flex-col items-center">
 
-    <div class="results-list d-flex flex-col">
-      <div class="result-school bg-primary"><a href="/school.html"><img src="/assets/images/back-logo.png" alt="the search logo"><span class="name-span primary-text text-white text-bolder medium-font">NAZARÉ BIG SURF</span></a></div>
-      <div class="result-school bg-primary"><a href="/school.html"><img src="/assets/images/back-logo.png" alt="the search logo"><span class="name-span primary-text text-white text-bolder medium-font">BELLS BEACH PRO</span></a></div>
-      <div class="result-school bg-primary"><a href="/school.html"><img src="/assets/images/back-logo.png" alt="the search logo"><span class="name-span primary-text text-white text-bolder medium-font">PIPELINE MASTER</span></a></div>
-    </div>
+      <div class="info-table">
+        <h1 class="school-info-h1 secondary-text medium-font"><i class="fas fa-burn"></i> NAZARÉ BIG SURF</h1>
+        <ul class="info-table-list d-flex flex-col primary-text text-gray">
+          <li class="table-list-item">BOARDTYPE:<span class="item-span text-blue text-bold"> Gun</span></li>
+          <li class="table-list-item">LEVEL: <span class="item-span text-blue text-bold"> Advanced/Big Rider</span></li>
+          <li class="table-list-item">CITY:<span class="item-span text-blue text-bold"> Nazaré</span></li>
+          <li class="table-list-item">COUNTRY:<span class="item-span text-blue text-bold"> Portugal</span></li>
+          <li class="table-list-item">EMAIL:<span class="item-span text-blue text-bold"> contact@bigsurfnazare.com</span></li>
+          <li class="table-list-item">WETSUIT:<span class="item-span text-blue text-bold"> 4mm</span></li>
+          <li class="table-list-item">VIDEO RECORD:<span class="item-span text-blue text-bold"> YES</span></li>
+          <li class="table-list-item">CROWD:<span class="item-span text-blue text-bold"> None</span></li>
+        </ul>
 
-  </section>
+        <button class="apply-btn text-white text-bolder" type="button"><i class="far fa-envelope"></i> APPLY</button>
+
+        <div class="info-bottom-list d-flex flex-col secondary-text text-bold">
+          <span><i class="fas fa-phone text-blue"></i> XXX-000</span>
+          <span><i class="fas fa-bus text-blue"></i> TRANSPORT: YES</span>
+          <span><i class="fas fa-laptop text-blue"></i> WEBSITE: <a class="text-blue text-bold" href="#">&nbsp;www.nazarebigsurf.com</a></span>
+          <span><i class="fas fa-users text-blue"></i> SURFERS ENROLLED: <span class="text-blue text-bold">&nbsp;122</span></span>
+          <span><i class="fas fa-clinic-medical text-blue"></i> INJURY SUPPORT: <span class="text-blue text-bold">&nbsp;YES</span></span>
+        </div>
+      </div>
+     
+        <p class="info-text secondary-text text-gray">Nazaré Big Surf is the first school in the world to prepare amateur surfers for the biggest wave in the world. We provide all necessary support for you become a big rider. We have a big team supporting you to guarantee your safery in the water and best instructions recording all your waves for post analyzes.</p>
+        <a class="more-detail-link text-bold primary-text" href="#"><i class="fas fa-info-circle"></i> CLICK TO VIEW MORE DETAILS</a>
+        <h3 class="map-direction-h3 primary-text text-bold"><i class="fas fa-map-signs big-font"></i>MAP DIRECTIONS</h3>
+        <a href="https://www.google.com/maps/place/Nazar%C3%A9,+Portugal/@39.5814487,-9.0706748,11z/data=!4m5!3m4!1s0xd18a8232f6ad417:0x3d2d871af42106f!8m2!3d39.6012147!4d-9.0700991"><img class="map-img"src="/assets/images/maps.png" alt="map directions"></a>
+      </section>
 
   </main>
+  
+
   <footer>
     <div class="footer-div">
       <img class="footer-logo" src="/assets/images/logo.png" alt="the search logo">
@@ -162,6 +134,5 @@
     </div>
     
   </footer>
-
 </body>
 </html>

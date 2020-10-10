@@ -36,7 +36,7 @@ body {
   height: 100vh;
 }
 
-ol, ul {
+ol, ul, li {
 	list-style: none;
 }
 
@@ -100,6 +100,14 @@ main {
 
 .text-white {
   color: white;
+}
+
+.text-blue {
+  color: #72bae3;
+}
+
+.text-gray {
+  color: #6c6767;
 }
 
 /* font */
@@ -578,6 +586,100 @@ main {
 
 /*=====  End of SEARCH RESULTS PAGE  ======*/
 
+
+/*=============================================
+=            SCHOOL DETAIL PAGE            =
+=============================================*/
+
+.school-info-section {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.school-info-h1 {
+  color: #dd4d42;
+}
+
+.info-table {
+  margin-bottom: 1rem;
+  padding: 1.4rem;
+  box-shadow: -2px -3px 21px -7px rgba(84,81,84,1);
+}
+.info-table-list {
+  margin: 1rem 0;
+}
+
+.item-span {
+  font-size: 0.8rem;
+}
+
+.table-list-item {
+  border: 1px solid gray;
+  padding: 0.7rem 0 0.7rem 0.2rem;
+  margin: 0.3rem 0;
+  font-size: 0.8rem;
+}
+
+.apply-btn {
+  background-color: #509bd7;
+  padding: 0.3rem 0.4rem;
+  margin-bottom:0.3rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.apply-btn:hover {
+  background-color: #2e81c5;
+  cursor: pointer;
+}
+
+.info-bottom-list {
+  font-size: 0.7rem;
+}
+
+.info-bottom-list span {
+  margin: 0.2rem 0;
+}
+
+.info-text {
+  text-align: justify;
+  margin: 0.4rem;
+  max-width: 900px;
+}
+
+.more-detail-link {
+  background-color: #f5f5f5;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #2f2e31;
+  width: 100%;
+  max-width: 900px;
+}
+
+.map-direction-h3 {
+  margin: 0.6rem 0 ;
+  font-size: 1.2rem;
+  color: #d44535;
+}
+
+.fa-map-signs {
+  padding-right: 1rem;
+}
+
+.map-img {
+  width: 100%;
+  max-width: 900px;
+}
+
+/* school detail section */
+
+
+/*=====  End of SCHOOL DETAIL PAGE  ======*/
+
+
+
 /*=============================================
 =            TABLET MEDIA             =
 =============================================*/
@@ -673,6 +775,51 @@ main {
     .more-info-wrapper-div {
      align-items: flex-start;
      text-align: left;
+    }
+
+    /* school detail page */
+
+    .info-table {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      max-width: 900px;
+    }
+
+    .info-table-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-gap: 0.5rem;
+    }
+
+    .table-list-item {
+      text-align: center;
+      font-weight: bold;
+      margin: 0;
+      padding: 0.8rem;
+    }
+
+    .apply-btn {
+      width: 100px;
+      align-self: flex-end;
+    }
+
+    .info-bottom-list {
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      color: rgb(43, 40, 40);
+    }
+
+    .info-bottom-list span {
+      font-size: 0.6rem;
+      display: flex;
+      align-items: center;
+    }
+    
+    .info-bottom-list i {
+      padding-right: 0.2rem;
     }
 
   /* footer */
@@ -893,6 +1040,12 @@ main {
   .result-school {
     width: 300px;
     margin: 1rem 1rem;
+  }
+
+  /* schoo detail */
+
+  .info-bottom-list span {
+    font-size: 0.7rem;
   }
  
 
