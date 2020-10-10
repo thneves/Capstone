@@ -62,3 +62,11 @@ To gain access to the The Search House page on any computer, follow the steps de
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/thneves/Capstone/issues).
+
+## Support this project
+
+Give a :star: if you like this project!
+
+## Acknowledgements
+
+[Design](https://www.behance.net/gallery/25563385/PatashuleKE) by [Mathew Njuguna](https://www.behance.net/mathewnjuguna)
