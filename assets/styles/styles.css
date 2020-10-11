@@ -56,6 +56,14 @@ a {
   text-decoration: none;
 }
 
+select {
+  color: #4a98d5;
+}
+
+select option {
+  color: #1f1f1f;
+}
+
 main {
   margin: 0 auto;
 }
@@ -155,6 +163,11 @@ main {
   display: none;
 }
 
+/* more */
+
+.no-border {
+  border: none;
+}
 /* =====  End of GLOBAL SETTINGS  ======* /
 
 /* =============================================
@@ -222,7 +235,6 @@ main {
 }
 
 .form-input {
-  border: none;
   padding: 0.3rem 0;
   border-radius: 0.2rem;
 }
@@ -235,7 +247,6 @@ main {
 .search-btn {
   padding: 0.5rem 0;
   margin: 0.5rem 0;
-  border: none;
   border-radius: 0.2rem;
   opacity: 1;
 }
@@ -245,7 +256,6 @@ main {
   color: #505357;
   font-size: 0.9rem;
   padding: 0.5rem;
-  border: none;
   border-radius: 0.2rem;
   background-color: #d4d0d1;
 }
@@ -271,7 +281,6 @@ main {
 
 .steps-h2 {
   margin: 20px 0;
-  color: #d35649;
 }
 
 .steps-div {
@@ -303,7 +312,6 @@ main {
 .info-btn-2 {
   padding: 0.4rem;
   margin: 1rem;
-  border: none;
   border-radius: 0.2rem;
   background-color: #fafdff;
 }
@@ -344,6 +352,7 @@ main {
   height: 150px;
   border-radius: 50%;
   margin-bottom: 1rem;
+  object-fit: cover;
 }
 
 /* =====  End of MORE INFO SECTION  ====== */
@@ -385,7 +394,6 @@ main {
 
 .sub-btn {
   background-color: #444;
-  border: none;
   padding: 0 1rem;
 }
 
@@ -499,7 +507,7 @@ main {
 }
 
 .buttons-div {
-  width: 40%;
+  width: 200px;
   margin: 2rem auto;
 }
 
@@ -508,13 +516,11 @@ main {
   background-color: #509bd7;
   padding: 0.4rem 0.6rem;
   border-radius: 0.2rem;
-  border: none;
   margin: 0.3rem 0;
 }
 
 .clear-filter-btn {
   background-color: #e5ab5a;
-  width: 200px;
 }
 
 .search-page-btn:hover {
@@ -598,7 +604,6 @@ main {
   padding: 0.3rem 0.4rem;
   margin-bottom: 0.3rem;
   border-radius: 0.2rem;
-  border: none;
 }
 
 .apply-btn:hover {

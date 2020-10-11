@@ -83,6 +83,12 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.form-legend {
+  padding-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .search-wrapper {
@@ -96,20 +102,29 @@
 }
 
 .search-input {
-  width: 90%;
+  width: 95%;
+  padding: 0.3rem 0;
 }
 
 .search-select {
-  width: 80%;
+  width: 98%;
+  padding: 0.2rem 0;
 }
 
 .buttons-div {
   flex-direction: row;
-  width: 160px;
+  align-items: flex-end;
+  margin: 0;
 }
 
-.search-page-btn {
+.search-page-btn,
+.clear-filter-btn {
   margin-right: 0.3rem;
+  margin: 0.4rem 0.3rem 0 0 ;
+}
+
+.clear-filter-btn {
+  text-align: left;
 }
 
 /* search page results */
