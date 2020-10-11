@@ -1,0 +1,656 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+footer,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  height: 100vh;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+select {
+  color: #4a98d5;
+}
+
+select option {
+  color: #1f1f1f;
+}
+
+main {
+  margin: 0 auto;
+}
+
+/* =============================================
+=            GLOBAL SETTINGS            =
+============================================= */
+
+/* flex box */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.space-b {
+  justify-content: space-between;
+}
+
+.space-a {
+  justify-content: space-around;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* colors */
+
+.bg-primary {
+  background-color: #d35649;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue {
+  color: #72bae3;
+}
+
+.text-gray {
+  color: #6c6767;
+}
+
+/* font and text */
+
+.primary-text {
+  font-family: 'Archivo', sans-serif;
+}
+
+.secondary-text {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-bolder {
+  font-weight: 900;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.small-font {
+  font-size: 0.9rem;
+}
+
+.medium-font {
+  font-size: 1.4rem;
+}
+
+.big-font {
+  font-size: 1.8rem;
+}
+
+/* no display */
+
+.nav-items span,
+.more-info-mockup-2,
+.rights-text,
+.footer-list {
+  display: none;
+}
+
+/* more */
+
+.no-border {
+  border: none;
+}
+
+/* =====  End of GLOBAL SETTINGS  ====== */
+
+/* =============================================
+=            HEADER            =
+============================================= */
+
+.header {
+  width: 100%;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.logo-div {
+  align-self: center;
+}
+
+.nav-items {
+  margin: 10px 10px 0 0;
+}
+
+.fa-search:hover {
+  color: #52adc0;
+}
+
+.fa-snowboarding:hover {
+  transform: rotate(-25deg);
+  transition: 0.6s;
+  color: #52adc0;
+}
+
+/* =====  End of HEADER  ====== */
+
+/* =============================================
+=            SEARCH SECTION            =
+============================================= */
+
+.search-h1 {
+  font-variant: small-caps;
+  font-size: 1.2rem;
+  max-width: 400px;
+}
+
+.search-section {
+  padding: 125px 0;
+  background-image: url(../images/hero-image2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* form */
+
+.field {
+  width: 85%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding-top: 1.1rem;
+  border-radius: 0.8rem;
+  background-color: rgba(228, 212, 212, 0.6);
+}
+
+.form-label {
+  margin-bottom: 0.2rem;
+  color: #505357;
+  font-size: 1rem;
+}
+
+.form-input {
+  padding: 0.3rem 0;
+  border-radius: 0.2rem;
+}
+
+.form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search-btn {
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  border-radius: 0.2rem;
+  opacity: 1;
+}
+
+.work-btn {
+  margin-left: -7rem;
+  color: #505357;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  background-color: #d4d0d1;
+}
+
+.work-btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
+
+.search-btn:hover {
+  background-color: #d44535;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* =====  End of SEARCH SECTION  ====== */
+
+/* =============================================
+=            STEPS SECTION            =
+============================================= */
+
+.steps-h2 {
+  margin: 20px 0;
+}
+
+.steps-div {
+  margin: 1rem;
+  max-width: 400px;
+  color: #2f2e31;
+}
+
+.steps-icons,
+.steps-h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* =====  End of STEPS SECTION  ====== */
+
+/* =============================================
+=            MORE INFO SECTION            =
+============================================= */
+
+.info-div {
+  padding: 3rem 1rem;
+}
+
+.info-div p {
+  max-width: 400px;
+}
+
+.info-btn-1,
+.info-btn-2 {
+  padding: 0.4rem;
+  margin: 1rem;
+  border-radius: 0.2rem;
+  background-color: #fafdff;
+}
+
+.info-btn-1 {
+  color: #e27e65;
+}
+
+.info-btn-2 {
+  color: #98a4a5;
+}
+
+.info-btn-1:hover,
+.info-btn-2:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.info-1 {
+  background-color: #e27e65;
+}
+
+.info-2 {
+  background-color: #98a4a5;
+}
+
+.info-3 {
+  background-color: #72bae3;
+}
+
+.info-h3 {
+  margin-bottom: 1rem;
+}
+
+.more-info-img,
+.more-info-mockup {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+/* =====  End of MORE INFO SECTION  ====== */
+
+/* =============================================
+=            FOOTER            =
+============================================= */
+
+.footer-div {
+  background-color: #000;
+}
+
+.footer-logo {
+  width: 50px;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+/* subscribe */
+
+.sub-form {
+  margin: 0 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(228, 212, 212, 0.1);
+}
+
+.sub-label {
+  margin-bottom: 1rem;
+}
+
+.sub-input {
+  border: 1px solid #444;
+  background-color: transparent;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  color: white;
+}
+
+.sub-btn {
+  background-color: #444;
+  padding: 0 1rem;
+}
+
+.sub-btn:hover {
+  cursor: pointer;
+}
+
+/* contact */
+
+.footer-contact {
+  border-bottom: 1px solid rgba(228, 212, 212, 0.1);
+}
+
+.footer-contact,
+.footer-about {
+  margin: 0 2rem;
+  padding: 2rem 0;
+}
+
+.contact-h2 {
+  margin-bottom: 1rem;
+}
+
+.footer-contact span,
+.footer-about span {
+  color: #d35649;
+}
+
+/* about */
+
+.about-text {
+  max-width: 400px;
+}
+
+/* social media icons */
+
+.footer-icons {
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #1f1f1f;
+}
+
+.icons-link {
+  padding: 0.6rem;
+  color: #505050;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-facebook-f:hover {
+  color: rgb(40, 75, 151);
+}
+
+.fa-google-plus-g:hover {
+  color: #dd4d42;
+}
+
+.fa-instagram:hover {
+  color: #ad3a85;
+}
+
+.fa-blog:hover {
+  color: #000;
+}
+
+/* =====  End of FOOTER  ====== */
+
+/* =============================================
+=            SEARCH RESULTS PAGE            =
+============================================= */
+
+.search-engine-section {
+  background-color: #eee;
+  margin-top: 3rem;
+}
+
+.search-engine-field {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+.form-legend {
+  margin: 1.4rem 1rem;
+  color: #919091;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.search-wrapper {
+  width: 100%;
+  margin-bottom: 0.7rem;
+}
+
+.search-label {
+  color: #494c4e;
+}
+
+.search-input,
+.search-select {
+  border: 2px solid #d5d5d5;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0;
+}
+
+.search-select {
+  background-color: white;
+  width: 50%;
+}
+
+.buttons-div {
+  width: 200px;
+  margin: 2rem auto;
+}
+
+.search-page-btn,
+.clear-filter-btn {
+  background-color: #509bd7;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.2rem;
+  margin: 0.3rem 0;
+}
+
+.clear-filter-btn {
+  background-color: #e5ab5a;
+}
+
+.search-page-btn:hover {
+  background-color: #2674b4;
+}
+
+.clear-filter-btn:hover {
+  background-color: #d39032;
+}
+
+.search-page-btn:hover,
+.clear-filter-btn:hover {
+  cursor: pointer;
+}
+
+/* results */
+
+.search-results-section {
+  margin: 4rem 0;
+}
+
+.results-h2 {
+  color: #6a6560;
+}
+
+.results-list {
+  width: 90%;
+  max-width: 340px;
+}
+
+.result-school {
+  margin-top: 2rem;
+  width: 100%;
+  position: relative;
+}
+
+.name-span {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+/* =====  End of SEARCH RESULTS PAGE  ====== */
+
+/* =============================================
+=            SCHOOL DETAIL PAGE            =
+============================================= */
+
+.school-info-section {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.school-info-h1 {
+  color: #dd4d42;
+}
+
+.info-table {
+  margin-bottom: 1rem;
+  padding: 1.4rem;
+  box-shadow: -2px -3px 21px -7px rgba(84, 81, 84, 1);
+}
+
+.info-table-list {
+  margin: 1rem 0;
+}
+
+.item-span {
+  font-size: 0.8rem;
+}
+
+.table-list-item {
+  border: 1px solid gray;
+  padding: 0.7rem 0 0.7rem 0.2rem;
+  margin: 0.3rem 0;
+  font-size: 0.8rem;
+}
+
+.apply-btn {
+  background-color: #509bd7;
+  padding: 0.3rem 0.4rem;
+  margin-bottom: 0.3rem;
+  border-radius: 0.2rem;
+}
+
+.apply-btn:hover {
+  background-color: #2e81c5;
+  cursor: pointer;
+}
+
+.info-bottom-list {
+  font-size: 0.7rem;
+}
+
+.info-bottom-list span {
+  margin: 0.2rem 0;
+}
+
+.info-text {
+  margin: 0.4rem;
+  max-width: 900px;
+}
+
+.more-detail-link {
+  background-color: #f5f5f5;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #2f2e31;
+  width: 100%;
+  max-width: 900px;
+}
+
+.map-direction-h3 {
+  margin: 0.6rem 0;
+  font-size: 1.2rem;
+  color: #d44535;
+}
+
+.fa-map-signs {
+  padding-right: 1rem;
+}
+
+.map-img {
+  width: 100%;
+  max-width: 900px;
+  height: 300px;
+}
+
+/* school detail section */
+
+/* =====  End of SCHOOL DETAIL PAGE  ====== */

@@ -1,0 +1,141 @@
+/* header */
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-div {
+  margin-top: -5px;
+}
+
+.nav-items {
+  margin: 0;
+}
+
+.info-bottom-list span {
+  font-size: 0.7rem;
+}
+
+.nav-items span {
+  display: block;
+  margin-left: 0.3rem;
+}
+
+.nav-items span:hover {
+  color: #52adc0;
+}
+
+.navbar {
+  position: initial;
+  margin-top: 0.5rem;
+  padding-right: 2rem;
+}
+
+/* search schools section */
+
+.field {
+  max-width: 600px;
+}
+
+.search-btn {
+  background-color: #d35649;
+}
+
+.search-btn:hover {
+  background-color: #d44535;
+}
+
+/* steps section */
+
+.steps-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* more info section */
+
+.info-div {
+  justify-content: space-around;
+}
+
+/* footer */
+
+.about-text {
+  width: 260px;
+}
+
+.footer-logo {
+  position: absolute;
+  top: -1rem;
+  left: 46.5%;
+}
+
+/* SEARCH PAGE */
+
+.search-engine-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.form-legend {
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.search-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 140px;
+}
+
+.search-label {
+  margin-bottom: 0.4rem;
+}
+
+.search-input {
+  width: 95%;
+  padding: 0.3rem 0;
+}
+
+.search-select {
+  width: 98%;
+  padding: 0.2rem 0;
+}
+
+.buttons-div {
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 0;
+}
+
+.search-page-btn,
+.clear-filter-btn {
+  margin: 0.4rem 0.3rem 0 0;
+}
+
+.clear-filter-btn {
+  text-align: left;
+}
+
+/* search page results */
+
+.results-list {
+  max-width: 1024px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.result-school {
+  width: 300px;
+  margin: 1rem 1rem;
+}
