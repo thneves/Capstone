@@ -216,14 +216,15 @@
 
 .rights-text {
   display: block;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   width: 100%;
   text-align: center;
   margin: 0.6rem 0 0 3rem;
-  color: #505050;
   padding-right: 0.5rem;
 }
 
 .rights-text span {
   padding-left: 0.5rem;
+  font-style: none;
+  font-size: 1rem;
 }

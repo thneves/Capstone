@@ -168,7 +168,8 @@ main {
 .no-border {
   border: none;
 }
-/* =====  End of GLOBAL SETTINGS  ======* /
+
+/* =====  End of GLOBAL SETTINGS  ====== */
 
 /* =============================================
 =            HEADER            =
@@ -389,7 +390,7 @@ main {
   border: 1px solid #444;
   background-color: transparent;
   padding: 0.5rem 0 0.5rem 0.5rem;
-  color: #444;
+  color: white;
 }
 
 .sub-btn {
