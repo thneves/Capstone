@@ -138,6 +138,15 @@ main {
   font-size: 1.8rem;
 }
 
+/* no display */
+
+.nav-items span,
+.more-info-mockup-2,
+.rights-text,
+.footer-list {
+  display: none;
+}
+
 /* =====  End of GLOBAL SETTINGS  ======* /
 
 /* =============================================
@@ -148,7 +157,6 @@ main {
   width: 100%;
   padding-bottom: 10px;
   justify-content: center;
-  align-items: center;
 }
 
 .logo-div {
@@ -159,16 +167,12 @@ main {
   margin: 10px 10px 0 0;
 }
 
-.nav-items span {
-  display: none;
-}
-
 .fa-search:hover {
   color: #52adc0;
 }
 
 .fa-snowboarding:hover {
-  rotate: -25deg;
+  transform: rotate(-25deg);
   transition: 0.6s;
   color: #52adc0;
 }
@@ -258,14 +262,10 @@ main {
 =            STEPS SECTION            =
 ============================================= */
 
-.steps-h1 {
+.steps-h2 {
   margin: 20px 0;
   text-align: center;
   color: #d35649;
-}
-
-.steps-section {
-  align-items: center;
 }
 
 .steps-div {
@@ -345,10 +345,6 @@ main {
   margin-bottom: 1rem;
 }
 
-.more-info-mockup-2 {
-  display: none;
-}
-
 /* =====  End of MORE INFO SECTION  ====== */
 
 /* =============================================
@@ -366,10 +362,6 @@ main {
   padding: 1rem;
   border: 1px solid white;
   border-radius: 50%;
-}
-
-.rights-text {
-  display: none;
 }
 
 /* subscribe */
@@ -402,10 +394,6 @@ main {
 }
 
 /* contact */
-
-.footer-list {
-  display: none;
-}
 
 .footer-contact {
   border-bottom: 1px solid rgba(228, 212, 212, 0.1);
@@ -532,6 +520,7 @@ main {
 
 .clear-filter-btn {
   background-color: #e5ab5a;
+  width: 200px;
 }
 
 .search-page-btn:hover {
