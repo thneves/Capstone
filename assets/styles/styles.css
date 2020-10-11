@@ -648,6 +648,7 @@ main {
 .map-img {
   width: 100%;
   max-width: 900px;
+  height: 300px;
 }
 
 /* school detail section */
